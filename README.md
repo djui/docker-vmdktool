@@ -1,6 +1,6 @@
-# vmdktool Docker container
+# vmdktool Docker image
 
-A Docker container that allow to use
+A Docker image that allow to use
 [vmdktool](http://www.awfulhak.org/vmdktool/) for converting VMDK images.
 
 No VirtualBox or VMWare required.
