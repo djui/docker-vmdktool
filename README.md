@@ -6,8 +6,16 @@ A Docker image that allow to use
 No VirtualBox or VMWare required.
 
 
-## Usage
+## Build
 
     $ docker build -t vmdktool .
+
+Or fetch:
+
+    $ docker pull djui/vmdktool
+
+
+## Usage
+
     $ docker run --rm -it -v my_image.vmdk:/tmp/my_image.vmdk vmdktool -V
     vmdktool version 1.4
